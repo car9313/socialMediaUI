@@ -1,0 +1,33 @@
+.light {
+  --textColor: #000;
+  --bgColor: #fff;
+  --logo: #00008b;
+  --bgSec: #f6f3f3;
+  --textColorSec: #555;
+  --border: #d3d3d3;
+}
+.dark {
+  --textColor: #f5f5f5;
+  --bgColor: #222;
+  --logo: #fff;
+  --bgSec: #333;
+  --textColorSec: #d3d3d3;
+  --border: #444;
+}
+.layout {
+  flex: 5;
+  padding: 20px;
+  background-color: var(--bgSec);
+}
+@media (max-width: 900px) {
+  .layout {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .layout {
+    flex: 2;
+    padding: 10px;
+  }
+}
